@@ -24,5 +24,6 @@ public:
 
   ofxBox2d box2d_;
   vector<ofPtr<ofxBox2dCircle>> circles_;
-  vector<ofPtr<ofxBox2dRect>> boxes_;
+  
+  float gravity_;
 };
